@@ -5,35 +5,31 @@
 }
 
 body {
+  padding-top: 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100vh;
+  min-height: 80vh;
   font-family: Arial, sans-serif;
-}
-
-.site-header {
-  width: 100%;
-  max-width: 800px;
-  background: #333;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: #031325;
 }
 
 .logo {
   font-size: 2em;
-  margin: 0;
+  color: #8fc5ff;
+  display: flex;
+  margin-left: -40%;
+  padding-bottom: 30px;
 }
 
 .main-content {
   width: 100%;
   max-width: 800px;
-  background: #eee;
+  background: rgb(0, 14, 31);
   padding: 20px;
-  height: 400px;
+  height: 80vh;
   align-items: center;
+  border: 1px solid rgb(45, 74, 107);
 }
 
 .inner-container {
@@ -47,6 +43,18 @@ body {
   margin-right: 20px;
 }
 
+.scores-list {
+  color: #aed5ff;
+  background-color: #031931;
+  border: 4px solid rgb(69, 111, 238);
+}
+
+.score-item {
+  color: #8fc5ff;
+  font-size: 20px;
+  background-color: #031931;
+}
+
 .scores-header {
   display: flex;
   align-items: center;
@@ -57,13 +65,7 @@ body {
 .scores-title {
   font-size: 1.5em;
   margin: 0;
-}
-
-.scores-list {
-  list-style: none;
-  width: 100%;
-  border: 1px solid #333;
-  border-radius: 5px;
+  color: #aed5ff;
 }
 
 .scores-list li {
@@ -75,22 +77,17 @@ body {
 }
 
 .scores-list li:nth-child(even) {
-  background: #dedede;
+  background: #092368;
 }
 
 .form-container {
   flex: 1;
-  max-width: 400px;
+  max-width: 100%;
 }
 
 #add-score {
   display: flex;
   flex-direction: column;
-}
-
-.form-title {
-  font-size: 1.5em;
-  margin: 0 0 20px;
 }
 
 .form-input-group {
@@ -102,15 +99,29 @@ body {
 .form-input {
   flex: 1;
   padding: 8px 10px;
-  border: 1px solid #333;
+  border: 1px solid rgb(34, 96, 210);
   border-radius: 5px;
+  background-color: #03101f;
+  color: #aed5ff;
 }
 
 .submit-button {
-  padding: 8px 12px;
-  background: #333;
-  color: #fff;
+  background-color: #007bff;
   border: none;
   border-radius: 5px;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
   cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0069d9;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(186, 203, 242);
+  font-size: 30px;
 }
