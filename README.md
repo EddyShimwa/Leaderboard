@@ -51,9 +51,9 @@ The app which displays the list of players and their scores
 
 > Describe between 1-3 key features of the application.
 
-- I used modern ES6
-- Reliable
-- Very Modern app
+- Users can add their names and their scores
+- The reflesh button when clicked it updates the scores part
+-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,10 +84,17 @@ In order to run this project you need:
 ### Setup
 
 Clone this repository to your desired folder
+https://github.com/EddyShimwa/Leaderboard.git
 
 ### Install
 
-Nothing required to install.
+Install this project with:
+
+download npm the packages
+
+npm install --save-dev
+
+run nmp start to run the leaderboard app
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,7 +117,6 @@ Nothing required to install.
 > Describe 1 - 3 features you will add to the project.
 
 - I will add the add and remove options
-- I will use OOPS
 - Modern Style Design
 - I will add the images as the backgrounds
 
