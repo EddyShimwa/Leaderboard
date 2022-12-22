@@ -1,46 +1,31 @@
 import './styles.css';
-import { onAddscore, render } from './modules/control-leaderboard.js';
+import { onAddscore, getData } from './modules/control-leaderboard.js';
 
-const myData = [
-  {
-    id: 1,
-    name: 'eddy',
-    score: 100,
-  },
-  {
-    id: 2,
-    name: 'eddy',
-    score: 80,
-  },
-  {
-    id: 3,
-    name: 'eddy',
-    score: 70,
-  },
-  {
-    id: 4,
-    name: 'eddy',
-    score: 400,
-  },
-  {
-    id: 5,
-    name: 'eddy',
-    score: 15,
-  },
-];
+const myId = 'Hniuy9bOcPZOzDXGMRWx';
 
-//   the list of score
-const scoreSection = document.querySelector('.scores-list');
+const endPointApi = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${myId}/scores/`;
 
 //   adding the button to submit score
-const addform = document.querySelector('#add-score');
-addform.addEventListener('submit', (e) => {
+const onScoresAddForm = document.querySelector('#add-score');
+onScoresAddForm.addEventListener('submit', (e) => {
   e.preventDefault();
-  const name = document.getElementById('name').value;
-  const score = document.getElementById('score').value;
-  onAddscore({ name, score });
+  const userName = document.getElementById('name');
+  const score = document.getElementById('score');
+  const button = document.getElementById('submit-score');
+  button.disabled = true;
+
+  const result = onAddscore(endPointApi, { user: userName.value, score: score.value });
+  if (result) {
+    userName.value = '';
+    score.value = '';
+    button.disabled = false;
+  }
 });
 
-window.onload = () => {
-  render(myData, scoreSection);
+document.getElementById('refresh-scores').addEventListener('click', () => {
+  getData(endPointApi);
+});
+
+window.onload = async () => {
+  getData(endPointApi);
 };
