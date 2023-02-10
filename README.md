@@ -59,8 +59,6 @@
 
 ![image](https://user-images.githubusercontent.com/88631022/218198565-080ef678-1b3d-4237-ad39-a3ad301b2925.png)
 
-</div>
-
 - **A user(Player) can add their scores**
 - **A user(Player) see the scores of other players**
 
@@ -94,7 +92,7 @@ https://github.com/EddyShimwa/Leaderboard.git
 
 Install this project with:
 
-download npm the packages
+- download npm the packages
 
 ```sh
 npm install

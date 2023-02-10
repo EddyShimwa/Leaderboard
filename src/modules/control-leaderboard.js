@@ -1,6 +1,6 @@
 export const render = (data) => {
   const scoreContainer = document.querySelector('.scores-list');
-  let domUI = '';
+  let domUI = [];
   if (data.length > 0) {
     data.forEach((item) => {
       domUI += `<li class='score-item'>
