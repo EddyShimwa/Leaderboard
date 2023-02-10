@@ -1,90 +1,92 @@
-# Leaderboard
-The app which displays the list of players and their scores
 <a name="readme-top"></a>
-
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
+![myLogo](https://user-images.githubusercontent.com/88631022/218198647-7261296a-940e-4999-82c1-1e7a3e71f0f0.PNG)
+
+  <h1><b>LeaderBoard App</b></h1>
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [ 💻 LeaderBoard ](#-LeaderBoard-)
 
-<!-- PROJECT DESCRIPTION -->
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+  - [👥 Author ](#-author-)
+  - [How to access the database?](#how-to-access-the-database)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-# 📖 Awesome Books <a name="about-project"></a>
+# 💻 Metrics-webapp <a name="about-project"></a>
 
-> This website has functionality to add and remove books from the list.
+> **LeaderBoard app** This innovative app boasts a dynamic interface that showcases a comprehensive list of players and their respective high scores in an aesthetically pleasing manner. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
->HTML
->Javascript ES6
->CSS
+### Tech Stack <a name="tech-stack"></a>
 
+> I used HTML, javaScript, Css, Webpack, to build this project
 
-<!-- Features -->
+<details>
+  <ul>
+    <li>Html</li>
+    <li>CSSs</li>
+    <li>JavaScript</li>
+    <li>WebPack</li>
+  </ul>
+</details>
 
 ### Key Features <a name="key-features"></a>
-<img src="screenshot.png" alt="logo" width="500px"  height="auto" />
 
-> Describe between 1-3 key features of the application.
+> Some key feature of this project
+> Features
 
-- Users can add their names and their scores
-- The reflesh button when clicked it updates the scores part
--
+<div align="flex">
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+![image](https://user-images.githubusercontent.com/88631022/218198244-1708a04b-934e-4ce6-9b3a-3af7a9c73eac.png)
 
-<!-- LIVE DEMO -->
+![image](https://user-images.githubusercontent.com/88631022/218198565-080ef678-1b3d-4237-ad39-a3ad301b2925.png)
 
-## 🚀 Live Demo <a name="live-demo"> https://eddyshimwa.github.io/Leaderboard/dist/</a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link]()
+- **A user(Player) can add their scores**
+- **A user(Player) see the scores of other players**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
+> ## 🚀 Live Demo <a name="live-demo"> </a>
+- [Check out the live demo here](https://eddyshimwa.github.io/Leaderboard/dist/)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> To get a local copy up and running, follow these steps.
+> Please follow the instructions to clone the repo
+> To get a local copy, follow these simple example steps.
+> Clone this repository or download the Zip folder:
 
 ### Prerequisites
 
-In order to run this project you need:
-
-- Internet
-- Code Editor or IDE
-- Browser
+> In order to check the linters errors and also see the project in your local machine make sure you have installed the [nodejs](https://nodejs.org)
 
 ### Setup
 
-Clone this repository to your desired folder
+> Clone this repository to your desired folder: cd [folder] to navigate and run the below comand to clone the project
+
+```sh
 https://github.com/EddyShimwa/Leaderboard.git
+```
 
 ### Install
 
@@ -92,67 +94,75 @@ Install this project with:
 
 - download npm the packages
 
-- npm install --save-dev
+```sh
+npm install
+```
 
-- run nmp start to run the leaderboard app
+To download the dev dependency you have to type this command:
+
+```sh
+npm i --save-dev
+```
+
+### Usage
+
+> To see the project in your local browser first of all, go to project file and navigate the directory on your terminal and type below command:
+
+```sh
+npm start
+```
+
+> After start the dev server a new tab will be open your browser.
+
+> To build this project you have to run the below command:
+
+```sh
+npm run build
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
+## 👥 Author <a name="authors"></a>
 
-## 👥 Authors <a name="authors"></a>
-
-> All of the collaborators of this project.
-
-👤 Eddy Shimwa
+👤 **SHIMWA Pray Eddy**
 
 - GitHub: [@EddyShimwa](https://github.com/EddyShimwa)
+- Twitter: [@eddy56388406](https://twitter.com/eddy56388406)
+- LinkedIn: [Pray Eddy SHIMWA](https://www.linkedin.com/in/pray-eddy-shimwa/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- I will add the add and remove options
-- Modern Style Design
-- I will add the images as the backgrounds
+- [ ] **I will more sytles to increase the apperance**
+- [ ] **I will add the image functionality so that the user can see the other player photos**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Feel free to check the [issues page](../../issues/).
 
-<!-- SUPPORT -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Give a star to show support.
+> Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> I would like to thank...
-
-- Google
-- Stackoverflow
+> Specials thanks Microverse for providing this previlege opportunity lo learn
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
-
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
