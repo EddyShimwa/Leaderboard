@@ -59,7 +59,7 @@ The app which displays the list of players and their scores
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo"> https://eddyshimwa.github.io/Leaderboard/dist/</a>
 
 > Add a link to your deployed project.
 
@@ -90,11 +90,11 @@ https://github.com/EddyShimwa/Leaderboard.git
 
 Install this project with:
 
-download npm the packages
+- download npm the packages
 
-npm install --save-dev
+- npm install --save-dev
 
-run nmp start to run the leaderboard app
+- run nmp start to run the leaderboard app
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

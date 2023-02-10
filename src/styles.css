@@ -5,7 +5,7 @@
 }
 
 body {
-  padding-top: 5%;
+  padding-top: 3%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,6 +47,8 @@ body {
   color: #aed5ff;
   background-color: #031931;
   border: 4px solid rgb(69, 111, 238);
+  height: 62vh;
+  overflow-y: scroll;
 }
 
 .score-item {
